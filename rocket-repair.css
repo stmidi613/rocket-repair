@@ -1,3 +1,35 @@
 body {
-    background-color: aliceblue;
+    background-color: lightgray;
+}
+
+.top-navbar{
+    height: 60px;
+}
+.top-navbar-items{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0 !important;
+    left: 0;
+    margin-top: 0 !important;
+    border: 3px solid #231123;
+    background-color: #6E8387;
+    width: 100%;
+    /*padding: 16px;*/
+}
+.top-navbar-item-list{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+    font-family: Nova Flat, Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #231123;
+    padding: 16px;
+}
+.top-navbar-item-list:hover{
+    background-color: #231123;
+    color: #6E8387;
+    border-radius: 15%;
 }
