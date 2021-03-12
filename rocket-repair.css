@@ -2,15 +2,31 @@ body {
     background-color: lightgray;
     margin: 0px !important;
 }
-@media (min-width: 1068px){
+@media (min-width: 1170px){
     .top-navbar-item-list{
-        min-width: clamp(140px, 14vw, 16.66vw) !important;
+        min-width: 13.5% !important;
     }
 }
-/*.top-navbar{
-    background-color: #6E8387;
-    
-}*/
+
+@media (max-width: 1068px){
+    .top-navbar-item-list{
+        width: 140px !important;
+    }
+    .header{
+        position: relative !important;
+        top: 116px !important;
+    }
+}
+@media (max-width: 536px){
+    .header{
+        position: relative !important;
+        top: 174px !important;
+        height: 300px !important;
+    }
+    .header-text{
+        font-size: 26px !important;
+    }
+}
 .top-navbar-items{
     display: flex;
     flex-wrap: wrap;
@@ -47,19 +63,21 @@ body {
 }
 .header{
     position: relative;
-    top: 116px;
+    top: 58px;
 }
 #background-image{
     height: 200px;
+    width: 100%;
 }
 .flex-div{
     display: flex;
     justify-content: center;
+    justify-items: center;
     position: relative;
     bottom: 150px;
 }
 .logo{
-    width: clamp(50px, 15%, 100px);
+    width: clamp(30px, 13%, 100px);
     position: relative;
     
 }
@@ -67,7 +85,7 @@ body {
     font-family: Nova Flat, Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font: 36px;
+    font-size: 36px;
     color: #DF2935;
-    border: 2px #231123;
+    -webkit-text-stroke: 1px #231123; /* width and color */
 }
