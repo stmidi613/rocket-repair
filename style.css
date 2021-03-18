@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+    background-color: gray !important;
     margin: 0px !important;
 }
 
@@ -12,7 +12,7 @@ body {
 @media (min-width: 1068px){
     .header-text{
         position: relative;
-        bottom: 30px;
+        bottom: 10px;
     }
 }
 
@@ -22,28 +22,57 @@ body {
     }
     .header{
         position: relative !important;
-        top: 116px !important;
+        top: 60px !important;
     }
     .header-text{
         position: relative;
         bottom: 20px;
     }
+    .logo{
+        position: relative;
+        top: -45px;
+    }
 }
 
 @media (max-width: 900px){
-        .header-text{
-        font-size: 42px !important;
+    .header{
+        position: relative !important;
+        top: 124px !important;
+        height: 200px !important;
+    }
+    .header-text{
+        font-size: 32px !important;
+        position: relative;
+        bottom: 10px;
+        left: 10px; 
     }
     .logo{
         position: relative;
-        top: -15px;
+        top: -75px;
+        width: 50px !important;
+    }
+    #hero, #services{
+        position: relative;
+        top: 115px;
+    }
+    #quotes-section{
+        position: relative;
+        top: 100px;
     }
 }
 
 @media (max-width: 460px){
+    .top-navbar-items{
+        position: relative !important;
+        width: 100vw;
+        margin: auto !important;
+    }
+    .top-navbar-item-list{
+        width: 160px !important;
+    }
     .header{
         position: relative !important;
-        top: 174px !important;
+        top: 0px !important;
         height: 100px !important;
     }
     .flex-div{
@@ -52,6 +81,21 @@ body {
     }
     .header-text{
         font-size: 26px !important;
+        position: relative;
+        bottom: 10px;
+        left: 10px; 
+    }
+    #hero, #services{
+        position: relative;
+        top: 0px !important;
+    }
+    .service-button{
+        position: relative;
+        right: 10px !important;
+    }
+    #quotes-section{
+        position: relative !important;
+        top: -20px !important;
     }
 }
 
@@ -64,8 +108,9 @@ body {
     top: 0;
     margin: auto !important;
     left: 0;
-    margin-left: -40px !important;
+    margin-left: -10px !important;
     width: 100vw;
+    z-index: 9999;
 }
 
 .top-navbar-item-list{
@@ -82,7 +127,7 @@ body {
     padding: 16px;
     border: 3px solid #231123;
     text-align: center;
-    width: 140px;
+    width: 160px;
 }
 
 .top-navbar-item-list:hover{
@@ -110,7 +155,7 @@ body {
 }
 
 .logo{
-    width: 10vw;
+    width: clamp(16px, 12%, 90px);
     position: relative;
     top: -15px;
     height: max-content;
@@ -143,4 +188,57 @@ body {
 
 .low-button{
     opacity: 100% !important;
+}
+
+#services{
+    background-image: url("../rocket-repair/images/warehouse.jpg");
+    width: 100vw;
+    background-size: cover;
+}
+
+.services-title, .service-list{
+    font-family: Nova Flat, Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #DF2935;
+    -webkit-text-stroke: 1px #231123;
+    text-align: center;
+    padding: 2px;
+}
+
+.services-title{
+    font-size: 5vw;
+}
+
+.service-list{
+    font-size: 4vw;
+}
+
+.service-button{
+    border-radius: 90px;
+    height: 100px;
+    width: 100px;
+    float: right;
+    position: relative;
+    bottom: 130px;
+    right: 50px;
+    background: #231123;
+    color: #DF2935;
+    border-color: #DF2935;
+}
+
+.service-button:hover{
+    background: #DF2935;
+    color: #231123;
+    border-color: #231123;
+    transition: 300ms;
+}
+
+#quotes-section{
+    background-image: url("../rocket-repair/images/space-bg.jpg");
+    width: 100vw;
+    height: 500px;
+    background-size: cover !important;
+    position: relative;
+    bottom: 20px;
 }
