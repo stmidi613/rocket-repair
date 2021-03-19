@@ -34,6 +34,11 @@ body {
     }
 }
 
+@media (max-width: 1020px){
+    #quotes-section{
+        height: 1220px !important;
+    }
+}
 @media (max-width: 900px){
     .header{
         position: relative !important;
@@ -57,7 +62,12 @@ body {
     }
     #quotes-section{
         position: relative;
-        top: 100px;
+        top: 0px;
+    }
+}
+@media (max-width: 680px){
+    #quotes-section{
+        height: 1830px !important;
     }
 }
 
@@ -95,7 +105,7 @@ body {
     }
     #quotes-section{
         position: relative !important;
-        top: -20px !important;
+        top: -120px !important;
     }
 }
 
@@ -237,8 +247,69 @@ body {
 #quotes-section{
     background-image: url("../rocket-repair/images/space-bg.jpg");
     width: 100vw;
-    height: 500px;
-    background-size: cover !important;
+    height: 610px;
+    background-size: repeat !important;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
     position: relative;
-    bottom: 20px;
+    bottom: 120px;
+}
+
+#stellar-repairs, #free-quotes, #preventive-maintenance{
+    max-width: 300px;
+    text-align: center;
+    margin: 20px;
+}
+
+.rocket{
+    background: #231123;
+    border: 2px #DF2935;
+}
+
+.dollar{
+    height: 40vh;
+}
+
+.h2-text{
+    color: #DF2935;
+    background: #231123;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.services-text{
+    color: #DF2935;
+    background: #6E8387;
+    -webkit-text-stroke: .5px #231123;
+    font-size: 16px;
+}
+
+.prev-maintenance{
+    margin-bottom: 7px !important;
+}
+
+.rqp-buttons{
+    border-radius: 90px;
+    height: 100px;
+    width: 100px;
+    background: #231123;
+    color: #DF2935;
+    border-color: #DF2935;
+}
+
+.rqp-buttons:hover{
+    background: #DF2935;
+    color: #231123;
+    border-color: #231123;
+    transition: 300ms;
+}
+
+#button3{
+    margin-top: 43px;
+}
+
+#button2{
+    margin-top: 98px;
 }
