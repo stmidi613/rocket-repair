@@ -107,6 +107,9 @@ body {
         position: relative !important;
         top: -120px !important;
     }
+    #contact{
+        height: 700px !important;
+    }
 }
 
 
@@ -266,7 +269,7 @@ body {
 
 .rocket{
     background: #231123;
-    border: 2px #DF2935;
+    border: 1px solid #DF2935;
 }
 
 .dollar{
@@ -361,4 +364,30 @@ body {
     background-size: cover;
     position: relative;
     bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
 }
+
+.h2-contact{
+    color: #fff;
+    -webkit-text-stroke: 1px #DF2935;
+    text-decoration: underline;
+}
+
+.form, .stay-connected{
+    width: 350px;
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.form input{
+    border: 1px solid #DF2935;
+    margin: 5px;
+    text-align: left !important;
+}
+.connected-text{
+    color: #fff;
+}
+
