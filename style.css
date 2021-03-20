@@ -38,7 +38,11 @@ body {
     #quotes-section{
         height: 1220px !important;
     }
+    #button3{
+        margin-top: 25px !important;
+    }
 }
+
 @media (max-width: 900px){
     .header{
         position: relative !important;
@@ -65,9 +69,19 @@ body {
         top: 0px;
     }
 }
+
+@media (max-width: 708px){
+    #contact{
+        height: 1000px !important;
+    }
+}
+
 @media (max-width: 680px){
     #quotes-section{
         height: 1830px !important;
+    }
+    #button2{
+        margin-top: 18px !important;
     }
 }
 
@@ -107,9 +121,6 @@ body {
         position: relative !important;
         top: -120px !important;
     }
-    #contact{
-        height: 700px !important;
-    }
 }
 
 
@@ -147,6 +158,7 @@ body {
     background-color: #231123;
     color: #6E8387;
     transition: 300ms;
+    cursor: pointer;
 }
 
 .header{
@@ -273,7 +285,7 @@ body {
 }
 
 .dollar{
-    height: 40vh;
+    height: 192px;
 }
 
 .h2-text{
@@ -291,7 +303,7 @@ body {
 }
 
 .prev-maintenance{
-    margin-bottom: 7px !important;
+    margin-bottom: 14px !important;
 }
 
 .rqp-buttons{
@@ -370,24 +382,54 @@ body {
     justify-content: space-around;
 }
 
-.h2-contact{
+.div-contact{
+    font-size: 26px;
     color: #fff;
     -webkit-text-stroke: 1px #DF2935;
     text-decoration: underline;
-}
-
-.form, .stay-connected{
-    width: 350px;
     text-align: center;
-    margin: 12px 0px;
+    margin: 30px 0px 24px 0px;
 }
 
-.form input{
+.stay-connected{
+    width: 355px;
+    text-align: center;
+    margin: 4px 0px;
+}
+
+.form input, #message{
     border: 1px solid #DF2935;
-    margin: 5px;
+    margin: 12px;
     text-align: left !important;
 }
+
 .connected-text{
     color: #fff;
+    -webkit-text-stroke: 1px #DF2935;
+    font-size: 22px;
 }
 
+.hours{
+    position: relative;
+    bottom: 20px;
+}
+
+#fb{
+    margin-right: 10px;
+}
+
+#directions{
+    text-decoration: underline;
+}
+.footer-text{
+    font: 16px;
+    text-align: center;
+}
+
+.footer-text, .icons, #directions:hover{
+    cursor: pointer;
+}
+
+input, #message{
+    color: rgb(189, 189, 189);
+}
