@@ -60,7 +60,7 @@ body {
         position: relative;
         top: 115px;
     }
-    #quotes-section, #extras{
+    #quotes-section, #extras, #contact{
         position: relative;
         top: 0px;
     }
@@ -103,7 +103,7 @@ body {
         position: relative;
         right: 10px !important;
     }
-    #quotes-section, #extras{
+    #quotes-section, #extras, #contact{
         position: relative !important;
         top: -120px !important;
     }
@@ -352,4 +352,13 @@ body {
     background-color: #231123;
     color: #6E8387;
     transition: 300ms;
+}
+
+#contact{
+    background-image: url("../rocket-repair/images/space-bg.jpg");
+    width: 100vw;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    bottom: 120px;
 }
