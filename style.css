@@ -3,30 +3,10 @@ body {
     margin: 0px !important;
 }
 
-@media (min-width: 1170px){
-    .top-navbar-item-list{
-        min-width: 13.5% !important;
-    }
-}
-
-@media (min-width: 1068px){
-    .header-text{
-        position: relative;
-        bottom: 10px;
-    }
-}
-
 @media (max-width: 1068px){
-    .top-navbar-item-list{
-        width: 140px !important;
-    }
-    .header{
-        position: relative !important;
-        top: 60px !important;
-    }
-    .header-text{
+    .flex-div{
         position: relative;
-        bottom: 20px;
+        top: 90px;
     }
     .logo{
         position: relative;
@@ -46,18 +26,17 @@ body {
 @media (max-width: 900px){
     .header{
         position: relative !important;
-        top: 124px !important;
+        top: 118px !important;
         height: 200px !important;
+    }
+    .flex-div{
+        position: relative;
+        top: 100px !important;
     }
     .header-text{
         font-size: 32px !important;
-        position: relative;
-        bottom: 10px;
-        left: 10px; 
     }
     .logo{
-        position: relative;
-        top: -75px;
         width: 50px !important;
     }
     #hero, #services{
@@ -68,16 +47,26 @@ body {
         position: relative;
         top: 0px;
     }
+    form button{
+        margin-left: 25vw;
+    }
 }
-
 @media (max-width: 708px){
     #contact{
+        background-image: url("../rocket-repair/images/contactspace.jpg") !important;
+        background-size: cover;
         height: 1000px !important;
+    }
+    .connected-text{
+        color: #DF2935 !important;
+        -webkit-text-stroke: .5px #231123 !important;
     }
 }
 
 @media (max-width: 680px){
     #quotes-section{
+        background-image: url("../rocket-repair/images/longspace.jpg") !important;
+        background-size: cover;
         height: 1830px !important;
     }
     #button2{
@@ -105,8 +94,6 @@ body {
     }
     .header-text{
         font-size: 26px !important;
-        position: relative;
-        bottom: 10px;
         left: 10px; 
     }
     #hero, #services{
@@ -129,36 +116,28 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     position: fixed;
-    top: 0;
     margin: auto !important;
-    left: 0;
-    margin-left: -10px !important;
     width: 100vw;
     z-index: 9999;
+    background-color: #df2935;
+    border: 3px solid #231123;
 }
 
 .top-navbar-item-list{
-    display: flex;
-    flex: wrap;
-    margin: 0px !important;
-    list-style-type: none;
-    text-decoration: none;
     display: inline;
     font-family: Nova Flat, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    background-color: #6E8387;
-    fill: #6E8387;
     padding: 16px;
-    border: 3px solid #231123;
     text-align: center;
     width: 160px;
 }
 
 .top-navbar-item-list:hover{
+    color: #DF2935;
     background-color: #231123;
-    color: #6E8387;
     transition: 300ms;
     cursor: pointer;
+    border-radius: 45px;
 }
 
 .header{
@@ -166,8 +145,6 @@ body {
     width: 100vw;
     height: 300px;
     background-size: cover;
-    position: relative;
-    top: 58px;
 }
 
 .flex-div{
@@ -177,7 +154,7 @@ body {
     margin: auto;
     position: relative;
     width: 90vw;
-    top: 90px;
+    top: 140px;
 }
 
 .logo{
@@ -246,11 +223,12 @@ body {
     width: 100px;
     float: right;
     position: relative;
+    border-style: none;
     bottom: 130px;
     right: 50px;
     background: #231123;
     color: #DF2935;
-    border-color: #DF2935;
+    border: 1px solid #DF2935;
 }
 
 .service-button:hover{
@@ -261,7 +239,7 @@ body {
 }
 
 #quotes-section{
-    background-image: url("../rocket-repair/images/space-bg.jpg");
+    background-image: url("../rocket-repair/images/bigspace.jpg");
     width: 100vw;
     height: 610px;
     background-size: cover !important;
@@ -289,16 +267,15 @@ body {
 }
 
 .h2-text{
-    color: #DF2935;
-    background: #231123;
+    color: #fff;
+    -webkit-text-stroke: 1px #DF2935;
     font-size: 28px;
     margin-top: 10px;
 }
 
 .services-text{
-    color: #DF2935;
-    background: #6E8387;
-    -webkit-text-stroke: .5px #231123;
+    color: #fff;
+    background: #df2935;
     font-size: 16px;
 }
 
@@ -312,7 +289,7 @@ body {
     width: 100px;
     background: #231123;
     color: #DF2935;
-    border-color: #DF2935;
+    border: 1px solid #DF2935;
 }
 
 .rqp-buttons:hover{
