@@ -398,12 +398,23 @@ body {
 #directions{
     text-decoration: underline;
 }
+
 .footer-text{
-    font: 16px;
+    display: block;
     text-align: center;
 }
 
-.footer-text, .icons, #directions:hover{
+.footer-navbar-items {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footer-navbar-item-list{
+   /* text-decoration-line: none;*/
+}
+
+.footer-navbar-item-list, .icons, #directions:hover{
     cursor: pointer;
 }
 
