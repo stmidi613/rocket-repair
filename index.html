@@ -103,8 +103,8 @@
         <div class="div-contact">Contact Rocko's Rocket Repair</div>
         <form>
           <input type="text" id="name" name="name" value="Name*"><br>
-          <input type="text" id="email" name="email" value="E-mail*"><br>
-          <input type="text" id="phone" name="phone" value="Phone*"><br>
+          <input type="email" id="email" name="email" value="E-mail*" required><br>
+          <input type="phone" id="phone" name="phone" value="Phone*" required><br>
           <textarea id="message" name="message" rows="4" cols="30">Message*</textarea><br>
           <button id="contact-button" class="rqp-buttons">Send >></button>
         </form>
@@ -126,7 +126,16 @@
     </section>
 
     <footer class="footer">
-      <p class="footer-text">Copyright © 2007-2021    Terms of Use | Privacy | Accessibility | Sitemap </p>
+      <p class="footer-text">Copyright © 2007-2021  </p>  
+       <!--Terms of Use | Privacy | Accessibility | Sitemap--> 
+       <nav class="footer-navbar">
+        <ul class="footer-navbar-items">
+        <li class="footer-navbar-item-list">Terms of Use / </li>
+        <li class="footer-navbar-item-list">Privacy / </li>
+        <li class="footer-navbar-item-list">Accessibility / </li>
+        <li class="footer-navbar-item-list">Sitemap / </li>
+        </ul>
+    </nav>
     </footer>
 
   </body>
