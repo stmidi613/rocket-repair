@@ -410,8 +410,13 @@ body {
     list-style-type: none;
 }
 
-.footer-navbar-item-list{
-   /* text-decoration-line: none;*/
+.footer-link{
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: #DF2935;
 }
 
 .footer-navbar-item-list, .icons, #directions:hover{
