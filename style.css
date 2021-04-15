@@ -103,10 +103,12 @@ body {
     .service-button{
         position: relative;
         right: 10px !important;
+        width: 80px !important;
+        height: 80px !important;
     }
     #quotes-section, #extras, #contact{
         position: relative !important;
-        top: -120px !important;
+        top: -95px !important;
     }
 }
 
