@@ -33,12 +33,6 @@ body {
         position: relative;
         top: 100px !important;
     }
-    .header-text{
-        /*font-size: 46px !important;*/
-    }
-    .logo{
-        /*width: 50px !important;*/
-    }
     #hero, #services{
         position: relative;
         top: 115px;
@@ -60,10 +54,6 @@ body {
     .connected-text{
         color: #DF2935 !important;
         -webkit-text-stroke: .5px #231123 !important;
-    }
-    .header-text{
-        /*font-size: 30px !important;
-        bottom: 0px !important; */
     }
 }
 
@@ -95,10 +85,6 @@ body {
     .flex-div{
         position: relative !important;
         top: 40px !important;
-    }
-    .header-text{
-        /*font-size: 26px !important;
-        left: 10px; */
     }
     #hero, #services{
         position: relative;
