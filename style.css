@@ -352,6 +352,7 @@ body {
 }
 
 .div-contact{
+    font-family: Nova Flat;
     font-size: 26px;
     color: #fff;
     -webkit-text-stroke: 1px #DF2935;
@@ -361,6 +362,7 @@ body {
 }
 
 .stay-connected{
+    font-family: Nova Flat;
     width: 355px;
     text-align: center;
     margin: 4px 0px;
@@ -373,6 +375,7 @@ body {
 }
 
 .connected-text{
+    font-family: Nova Flat;
     color: #fff;
     -webkit-text-stroke: 1px #DF2935;
     font-size: 22px;
