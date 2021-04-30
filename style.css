@@ -398,6 +398,14 @@ body {
 #directions{
     text-decoration: underline;
 }
+
+#linkedin{
+    width: 95px;
+    height: 98px;
+    position: relative;
+    top: 3px;
+}
+
 .footer-text{
     font: 16px;
     text-align: center;
