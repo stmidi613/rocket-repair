@@ -394,6 +394,16 @@ body {
     text-decoration: underline;
 }
 
+<<<<<<< HEAD
+=======
+#linkedin{
+    width: 95px;
+    height: 98px;
+    position: relative;
+    top: 3px;
+}
+
+>>>>>>> variant
 .footer-text{
     display: block;
     text-align: center;
