@@ -399,6 +399,11 @@ body {
     text-decoration: underline;
 }
 
+#directions:hover, .footer-text:hover{
+    color: #fff !important;
+    cursor: pointer;
+}
+
 #linkedin{
     width: 95px;
     height: 98px;
@@ -406,12 +411,13 @@ body {
     top: 3px;
 }
 
-.footer-text{
+.footer-text, .copyright{
     font: 16px;
     text-align: center;
+    cursor: pointer;
 }
 
-.footer-text, .icons, #directions:hover{
+.icons{
     cursor: pointer;
 }
 
