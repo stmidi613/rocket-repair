@@ -399,7 +399,7 @@ body {
     text-decoration: underline;
 }
 
-#directions:hover, .footer-text:hover{
+#directions:hover{
     color: #fff !important;
     cursor: pointer;
 }
@@ -411,9 +411,27 @@ body {
     top: 3px;
 }
 
-.footer-text, .copyright{
-    font: 16px;
+.footer-text{
+    display: block;
     text-align: center;
+}
+
+.footer-navbar-items {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.footer-link{
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: #DF2935;
+}
+
+.footer-navbar-item-list, .icons, #directions:hover{
     cursor: pointer;
 }
 
