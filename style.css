@@ -55,6 +55,10 @@ body {
         color: #DF2935 !important;
         -webkit-text-stroke: .5px #231123 !important;
     }
+    #directions.connected-text:hover{
+        color: #fff !important;
+        cursor: pointer;
+    }
 }
 
 @media (max-width: 680px){
@@ -394,6 +398,23 @@ body {
     text-decoration: underline;
 }
 
+#directions.connected-text:hover{
+    color: #df2935;
+    -webkit-text-stroke: 1px #fff;
+    cursor: pointer;
+}
+
+.icons:hover{
+    cursor: pointer;
+}
+
+#linkedin{
+    width: 95px;
+    height: 98px;
+    position: relative;
+    top: 3px;
+}
+
 .footer-text{
     display: block;
     text-align: center;
@@ -412,10 +433,6 @@ body {
 
 .footer-link:hover{
     color: #DF2935;
-}
-
-.footer-navbar-item-list, .icons, #directions:hover{
-    cursor: pointer;
 }
 
 input, #message{
