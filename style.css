@@ -42,7 +42,7 @@ body {
         top: 0px;
     }
     form button{
-        margin-left: 25vw;
+        margin-left: 3vw;
     }
 }
 @media (max-width: 708px){
@@ -56,7 +56,7 @@ body {
         -webkit-text-stroke: .5px var(--secondary-color) !important;
     }
     #directions.connected-text:hover{
-        color: #fff !important;
+        color: black !important;
         cursor: pointer;
     }
 }
@@ -107,7 +107,7 @@ body {
 }
 
 :root {
-    --primary-color: #df2935;
+    --primary-color: white;
     --secondary-color: #231123;
     --supplement-color: #6E8387;
 }
@@ -120,11 +120,10 @@ body {
     margin: auto !important;
     width: 100vw;
     z-index: 9999;
-    background-color: var(--primary-color);
-    border: 3px solid var(--secondary-color);
 }
 
 .top-navbar-item-list{
+    color: var(--primary-color);
     display: inline;
     font-family: Nova Flat, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
@@ -138,7 +137,6 @@ body {
     background-color:var(--secondary-color);
     transition: 300ms;
     cursor: pointer;
-    border-radius: 45px;
 }
 
 .header{
@@ -175,13 +173,13 @@ body {
 }
 /*Hero Image Gallery*/
 .carousel-control-next-icon, .carousel-control-prev-icon{
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     border-radius: 90px;
     border: 2px solid var(--secondary-color);
 }
 
 .carousel-indicators{
-    background: var(--primary-color);
+    background: black;
     border: 2px solid var(--secondary-color);
     border-radius: 45px;
     opacity: 50%;
@@ -206,25 +204,22 @@ body {
     font-weight: normal;
     color: var(--primary-color);
     -webkit-text-stroke: 1px var(--secondary-color);
-    text-align: center;
     padding: 2px;
 }
 
 .services-title{
-    font-size: 5vw;
+    font-size: 3vw;
 }
 
 .service-list{
-    font-size: 4vw;
+    font-size: 2vw;
 }
 
 .service-button{
-    border-radius: 90px;
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 120px;
     float: right;
     position: relative;
-    border-style: none;
     bottom: 130px;
     right: 50px;
     background: var(--secondary-color);
@@ -258,14 +253,6 @@ body {
     margin: 20px;
 }
 
-.rocket{
-    background: var(--secondary-color);
-    border: 1px solid var(--primary-color);
-}
-
-.dollar{
-    height: 192px;
-}
 
 .h2-text{
     color: #fff;
@@ -285,9 +272,8 @@ body {
 }
 
 .rqp-buttons{
-    border-radius: 90px;
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 120px;
     background: var(--secondary-color);
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
@@ -404,7 +390,7 @@ body {
 }
 
 #directions.connected-text:hover{
-    color: #df2935;
+    color: black;
     -webkit-text-stroke: 1px #fff;
     cursor: pointer;
 }
