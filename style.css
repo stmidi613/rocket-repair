@@ -18,33 +18,21 @@ body {
     #quotes-section{
         height: 1220px !important;
     }
-    #button3{
-        margin-top: 25px !important;
-    }
 }
 
 @media (max-width: 900px){
     .header{
-        position: relative !important;
-        top: 118px !important;
         height: 200px !important;
     }
     .flex-div{
         position: relative;
         top: 100px !important;
     }
-    #hero, #services{
-        position: relative;
-        top: 115px;
-    }
-    #quotes-section, #extras, #contact{
-        position: relative;
-        top: 0px;
-    }
     form button{
-        margin-left: 3vw;
+        margin: 0px 12px;
     }
 }
+
 @media (max-width: 708px){
     #contact{
         background-image: url("../rocket-repair/images/contactspace.jpg") !important;
@@ -66,9 +54,6 @@ body {
         background-image: url("../rocket-repair/images/longspace.jpg") !important;
         background-size: cover;
         height: 1830px !important;
-    }
-    #button2{
-        margin-top: 18px !important;
     }
 }
 
@@ -95,14 +80,12 @@ body {
         top: 0px !important;
     }
     .service-button{
-        position: relative;
-        right: 10px !important;
-        width: 80px !important;
-        height: 80px !important;
+        width: 130px !important;
+        height: 40px !important;
     }
     #quotes-section, #extras, #contact{
         position: relative !important;
-        top: -95px !important;
+        top: -10px !important;
     }
 }
 
@@ -113,13 +96,10 @@ body {
 }
 
 .top-navbar-items{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     position: fixed;
-    margin: auto !important;
     width: 100vw;
     z-index: 9999;
+    margin-top: 20px;
 }
 
 .top-navbar-item-list{
@@ -129,7 +109,6 @@ body {
     font-size: 16px;
     padding: 16px;
     text-align: center;
-    width: 160px;
 }
 
 .top-navbar-item-list:hover{
@@ -142,35 +121,21 @@ body {
 .header{
     background-image: url("../rocket-repair/images/space-bg.jpg");
     width: 100vw;
-    height: 300px;
+    height: 80px;
     background-size: cover;
-}
-
-.flex-div{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    margin: auto;
-    position: relative;
-    width: 90vw;
-    top: 140px;
-}
-
-.logo{
-    width: clamp(50px, 12%, 90px);
-    position: relative;
-    top: -15px;
-    height: max-content;
 }
 
 .header-text{
     font-family: Nova Flat, Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
+    font-style: italic;
     font-weight: normal;
-    font-size: clamp(12px, 7vw, 65px);
+    font-size: 28px;
     color: var(--primary-color);
     -webkit-text-stroke: 1px var(--secondary-color);
+    margin-left: 30px;
+    margin-right: 75px;
 }
+
 /*Hero Image Gallery*/
 .carousel-control-next-icon, .carousel-control-prev-icon{
     background-color: var(--secondary-color);
@@ -216,8 +181,9 @@ body {
 }
 
 .service-button{
-    height: 70px;
-    width: 120px;
+    font: 12px;
+    width: 130px;
+    height: 40px;
     margin: 3px;
     background: var(--secondary-color);
     color: var(--primary-color);
@@ -240,12 +206,14 @@ body {
     bottom: 20px;
 }
 
-#stellar-repairs, #free-quotes, #preventive-maintenance{
-    max-width: 300px;
-    text-align: center;
-    margin: 20px;
+#free-quotes{
+    margin: 10px;
 }
 
+#button2{
+    height: 45px;
+    width: 110px;
+}
 
 .h2-text{
     color: #fff;
@@ -256,8 +224,9 @@ body {
 
 .services-text{
     color: #fff;
-    background: var(--primary-color);
-    font-size: 16px;
+    background: var(--secondary-color);
+    font-size: 12px;
+    max-width: 300px;
 }
 
 .prev-maintenance{
@@ -279,14 +248,6 @@ body {
     transition: 300ms;
 }
 
-#button3{
-    margin-top: 43px;
-}
-
-#button2{
-    margin-top: 98px;
-}
-
 #extras{
     background-image: url("../rocket-repair/images/warehouse2.jpg");
     width: 100vw !important;
@@ -296,9 +257,16 @@ body {
     bottom: 120px;
 }
 
+.extras-section{
+    display: flex;
+    flex-direction: column;
+}
+
 .bbb{
     background-color: var(--secondary-color);
     margin: 3px;
+    height: 70px;
+    width: 220px;
 }
 
 .extras-button{
@@ -310,8 +278,8 @@ body {
     background-color: var(--secondary-color);
     fill: var(--primary-color);
     border: 1px solid var(--primary-color);
-    width: 180px;
-    height: 75px;
+    width: 160px;
+    height: 70px;
 }
 
 .extras-button:hover{
@@ -331,7 +299,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    justify-content: space-around;
 }
 
 .div-contact{
@@ -341,14 +308,13 @@ body {
     -webkit-text-stroke: 1px var(--primary-color);
     text-decoration: underline;
     text-align: center;
-    margin: 30px 0px 24px 0px;
+    margin: 30px 0px 24px 10px;
 }
 
-.stay-connected{
-    font-family: Nova Flat;
-    width: 355px;
-    text-align: center;
-    margin: 4px 0px;
+#contact-button{
+    margin: 0px 12px;
+    height: 50px;
+    width: 90px;
 }
 
 .form input, #message{
@@ -364,34 +330,26 @@ body {
     font-size: 22px;
 }
 
-.hours{
-    position: relative;
-    bottom: 20px;
-}
-
 #fb{
-    margin-right: 10px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
 }
 
-#directions{
-    text-decoration: underline;
+#twitter{
+    width: 50px;
+    height: 50px; 
 }
 
-#directions.connected-text:hover{
-    color: black;
-    -webkit-text-stroke: 1px #fff;
-    cursor: pointer;
+#linkedin{
+    width: 65px;
+    height: 65px;
+    position: relative;
+    top: 3px;
 }
 
 .icons:hover{
     cursor: pointer;
-}
-
-#linkedin{
-    width: 95px;
-    height: 98px;
-    position: relative;
-    top: 3px;
 }
 
 .footer-text{
