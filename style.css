@@ -1,92 +1,6 @@
 body {
-    background-color: gray !important;
+    background-color: var(--supplement-color) !important;
     margin: 0px !important;
-}
-
-@media (max-width: 1068px){
-    .flex-div{
-        position: relative;
-        top: 90px;
-    }
-    .logo{
-        position: relative;
-        top: -45px;
-    }
-}
-
-@media (max-width: 1020px){
-    #quotes-section{
-        height: 1220px !important;
-    }
-}
-
-@media (max-width: 900px){
-    .header{
-        height: 200px !important;
-    }
-    .flex-div{
-        position: relative;
-        top: 100px !important;
-    }
-    form button{
-        margin: 0px 12px;
-    }
-}
-
-@media (max-width: 708px){
-    #contact{
-        background-image: url("../rocket-repair/images/contactspace.jpg") !important;
-        background-size: cover;
-        height: 1000px !important;
-    }
-    .connected-text{
-        color: var(--primary-color) !important;
-        -webkit-text-stroke: .5px var(--secondary-color) !important;
-    }
-    #directions.connected-text:hover{
-        color: black !important;
-        cursor: pointer;
-    }
-}
-
-@media (max-width: 680px){
-    #quotes-section{
-        background-image: url("../rocket-repair/images/longspace.jpg") !important;
-        background-size: cover;
-        height: 1830px !important;
-    }
-}
-
-@media (max-width: 460px){
-    .top-navbar-items{
-        position: relative !important;
-        width: 100vw;
-        margin: auto !important;
-    }
-    .top-navbar-item-list{
-        width: 160px !important;
-    }
-    .header{
-        position: relative !important;
-        top: 0px !important;
-        height: 100px !important;
-    }
-    .flex-div{
-        position: relative !important;
-        top: 40px !important;
-    }
-    #hero, #services{
-        position: relative;
-        top: 0px !important;
-    }
-    .service-button{
-        width: 130px !important;
-        height: 40px !important;
-    }
-    #quotes-section, #extras, #contact{
-        position: relative !important;
-        top: -10px !important;
-    }
 }
 
 :root {
@@ -99,7 +13,6 @@ body {
     position: fixed;
     width: 100vw;
     z-index: 9999;
-    margin-top: 20px;
 }
 
 .top-navbar-item-list{
@@ -160,7 +73,7 @@ body {
 #services{
     background-image: url("../rocket-repair/images/warehouse.jpg");
     width: 100vw;
-    background-size: cover;
+    height: 670px;
 }
 
 .services-title, .service-list{
@@ -200,14 +113,7 @@ body {
 #quotes-section{
     background-image: url("../rocket-repair/images/bigspace.jpg");
     width: 100vw;
-    height: 610px;
-    background-size: cover !important;
-    position: relative;
-    bottom: 20px;
-}
-
-#free-quotes{
-    margin: 10px;
+    height: 780px;
 }
 
 #button2{
@@ -219,7 +125,6 @@ body {
     color: #fff;
     -webkit-text-stroke: 1px var(--secondary-color);
     font-size: 28px;
-    margin-top: 10px;
 }
 
 .services-text{
@@ -227,10 +132,6 @@ body {
     background: var(--secondary-color);
     font-size: 12px;
     max-width: 300px;
-}
-
-.prev-maintenance{
-    margin-bottom: 14px !important;
 }
 
 .rqp-buttons{
@@ -251,10 +152,8 @@ body {
 #extras{
     background-image: url("../rocket-repair/images/warehouse2.jpg");
     width: 100vw !important;
-    height: 400px;
+    height: 680px;
     background-size: cover;
-    position: relative;
-    bottom: 120px;
 }
 
 .extras-section{
@@ -292,10 +191,8 @@ body {
 #contact{
     background-image: url("../rocket-repair/images/space-bg.jpg");
     width: 100vw;
-    height: 500px;
+    height: 600px;
     background-size: cover;
-    position: relative;
-    bottom: 120px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -321,13 +218,6 @@ body {
     border: 1px solid var(--primary-color);
     margin: 12px;
     text-align: left !important;
-}
-
-.connected-text{
-    font-family: Nova Flat;
-    color: #fff;
-    -webkit-text-stroke: 1px var(--primary-color);
-    font-size: 22px;
 }
 
 #fb{
