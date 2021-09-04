@@ -101,17 +101,17 @@ body {
     font-size: clamp(24px, 4vw, 40px);
 }
 
-.service-button{
+.button{
     font: 12px;
     width: 130px;
     height: 60px;
-    margin: 3px;
+    margin: 10px;
     background: rgba(0, 0, 255, 0);
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
 }
 
-.service-button:hover{
+.button:hover{
     background: var(--primary-color);
     color: var(--secondary-color);
     border-color: var(--primary-color);
@@ -171,6 +171,11 @@ body {
     width: 220px;
 }
 
+#gallery-button, #reviews-button{
+    width: 220px !important;
+    margin-top: 20px;
+}
+
 #contact{
     background-image: url("../rocket-repair/images/space-bg.jpg");
     width: 100vw;
@@ -191,11 +196,11 @@ body {
     margin: 30px 0px 24px 10px;
 }
 
-#contact-button{
+/*#contact-button{
     margin: 0px 12px;
     height: 50px;
     width: 90px;
-}
+}*/
 
 .form input, #message{
     border: 1px solid var(--primary-color);
