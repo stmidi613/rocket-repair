@@ -93,7 +93,7 @@ body {
 }
 
 .services-title{
-    font-size: clamp(28px, 4vw, 46px);
+    font-size: clamp(30px, 4vw, 46px);
     text-decoration: underline solid black;
 }
 
@@ -105,7 +105,6 @@ body {
     font: 12px;
     width: 130px;
     height: 60px;
-    margin: 10px;
     background: rgba(0, 0, 255, 0);
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
@@ -136,15 +135,14 @@ body {
 .h2-text{
     color: #fff;
     -webkit-text-stroke: 1px var(--secondary-color);
-    font-size: clamp(28px, 4vw, 46px);
+    font-size: clamp(30px, 4vw, 46px);
     text-decoration: underline;
 }
 
 .services-text{
     color: #fff;
-    background: var(--secondary-color);
-    font-size: 12px;
-    max-width: 300px;
+    font-size: clamp(16px, 2vw, 40px);
+    max-width: 350px;
 }
 
 #extras{
@@ -166,14 +164,13 @@ body {
 
 .bbb{
     background-color: var(--secondary-color);
-    margin: 3px;
     height: 70px;
     width: 220px;
 }
 
 #gallery-button, #reviews-button{
     width: 220px !important;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #contact{
@@ -196,18 +193,15 @@ body {
     margin: 30px 0px 24px 10px;
 }
 
-/*#contact-button{
-    margin: 0px 12px;
-    height: 50px;
-    width: 90px;
-}*/
-
 .form input, #message{
     border: 1px solid var(--primary-color);
     margin: 12px;
     text-align: left !important;
 }
 
+#send-button{
+    margin-left: 10px;
+}
 #fb{
     margin: 10px;
     width: 50px;
