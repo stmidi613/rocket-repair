@@ -102,10 +102,9 @@ body {
 }
 
 .button{
-    font: 12px;
-    width: 130px;
+    font-size: 24px;
+    width: 220px;
     height: 60px;
-    margin: 10px;
     background: rgba(0, 0, 255, 0);
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
@@ -119,9 +118,9 @@ body {
 }
 
 #quotes-section{
-    background-image: url("../rocket-repair/images/bigspace.jpg");
+    background-image: url("../rocket-repair/images/night-launch.jpg");
     width: 100vw;
-    height: 675px;
+    height: 700px;
     position: relative;
 }
 
@@ -137,20 +136,20 @@ body {
     color: #fff;
     -webkit-text-stroke: 1px var(--secondary-color);
     font-size: clamp(28px, 4vw, 46px);
-    text-decoration: underline;
+    text-decoration: underline solid white;
 }
 
 .services-text{
     color: #fff;
-    background: var(--secondary-color);
-    font-size: 12px;
+    -webkit-text-stroke: 1px var(--secondary-color);
+    font-size: 24px;
     max-width: 300px;
 }
 
 #extras{
-    background-image: url("../rocket-repair/images/warehouse2.jpg");
+    background-image: url("../rocket-repair/images/rocket-display.jpg");
     width: 100vw !important;
-    height: 680px;
+    height: 700px;
     background-size: cover;
     position: relative;
 }
@@ -166,18 +165,16 @@ body {
 
 .bbb{
     background-color: var(--secondary-color);
-    margin: 3px;
     height: 70px;
     width: 220px;
 }
 
 #gallery-button, #reviews-button{
-    width: 220px !important;
     margin-top: 20px;
 }
 
 #contact{
-    background-image: url("../rocket-repair/images/space-bg.jpg");
+    background-image: url("../rocket-repair/images/rocket-launch.jpg");
     width: 100vw;
     height: 600px;
     background-size: cover;
@@ -196,16 +193,14 @@ body {
     margin: 30px 0px 24px 10px;
 }
 
-/*#contact-button{
-    margin: 0px 12px;
-    height: 50px;
-    width: 90px;
-}*/
-
 .form input, #message{
     border: 1px solid var(--primary-color);
     margin: 12px;
     text-align: left !important;
+}
+
+#send-button{
+    margin-left: 10px;
 }
 
 #fb{
