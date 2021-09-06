@@ -102,8 +102,8 @@ body {
 }
 
 .button{
-    font: 12px;
-    width: 130px;
+    font-size: 24px;
+    width: 220px;
     height: 60px;
     background: rgba(0, 0, 255, 0);
     color: var(--primary-color);
@@ -118,9 +118,9 @@ body {
 }
 
 #quotes-section{
-    background-image: url("../rocket-repair/images/bigspace.jpg");
+    background-image: url("../rocket-repair/images/night-launch.jpg");
     width: 100vw;
-    height: 675px;
+    height: 700px;
     position: relative;
 }
 
@@ -135,20 +135,21 @@ body {
 .h2-text{
     color: #fff;
     -webkit-text-stroke: 1px var(--secondary-color);
-    font-size: clamp(30px, 4vw, 46px);
-    text-decoration: underline;
+    font-size: clamp(28px, 4vw, 46px);
+    text-decoration: underline solid white;
 }
 
 .services-text{
     color: #fff;
-    font-size: clamp(16px, 2vw, 40px);
-    max-width: 350px;
+    -webkit-text-stroke: 1px var(--secondary-color);
+    font-size: 24px;
+    max-width: 300px;
 }
 
 #extras{
-    background-image: url("../rocket-repair/images/warehouse2.jpg");
+    background-image: url("../rocket-repair/images/rocket-display.jpg");
     width: 100vw !important;
-    height: 680px;
+    height: 700px;
     background-size: cover;
     position: relative;
 }
@@ -169,12 +170,11 @@ body {
 }
 
 #gallery-button, #reviews-button{
-    width: 220px !important;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #contact{
-    background-image: url("../rocket-repair/images/space-bg.jpg");
+    background-image: url("../rocket-repair/images/rocket-launch.jpg");
     width: 100vw;
     height: 600px;
     background-size: cover;
@@ -202,6 +202,7 @@ body {
 #send-button{
     margin-left: 10px;
 }
+
 #fb{
     margin: 10px;
     width: 50px;
