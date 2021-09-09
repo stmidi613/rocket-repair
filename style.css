@@ -9,6 +9,36 @@ body {
     --supplement-color: #6E8387;
 }
 
+@media (max-width: 1120px) {
+    #launch-video-button{
+       top: 12% !important;
+       left: 15% !important; 
+    }
+    #facility-tour-button{
+        top: 130% !important;
+        left: 50% !important;
+    }
+    #team-video-button {
+        top: 78% !important;
+        left: 5% !important;
+    }
+}
+
+@media (max-width: 850px){
+    #services{
+        background-image: url("../rocket-repair/images/warehouse-cropped.jpg") !important;
+    }
+    #quotes-section{
+        background-image: url("../rocket-repair/images/night-launch-small.jpg") !important;
+    }
+}
+
+@media (max-width: 490px){
+    #extras{
+        background-image: url("../rocket-repair/images/rocket-display-cell-dark.jpg") !important;
+    }
+}
+
 .top-navbar-items{
     width: 100vw;
 }
@@ -159,7 +189,7 @@ body {
 
 #extras{
     background-image: url("../rocket-repair/images/rocket-display.jpg");
-    width: 100vw !important;
+    width: 100vw;
     height: 700px;
     background-size: cover;
     position: relative;
