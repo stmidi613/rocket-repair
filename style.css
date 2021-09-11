@@ -39,26 +39,6 @@ body {
     }
 }
 
-.top-navbar-items{
-    width: 100vw;
-}
-
-.top-navbar-item-list{
-    color: var(--primary-color);
-    display: inline;
-    font-family: Nova Flat, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    padding: 16px;
-    text-align: center;
-}
-
-.top-navbar-item-list:hover{
-    color: var(--primary-color);
-    background-color:var(--secondary-color);
-    transition: 300ms;
-    cursor: pointer;
-}
-
 .header{
     background-image: url("../rocket-repair/images/space-bg.jpg");
     width: 100vw;
@@ -74,6 +54,47 @@ body {
     color: var(--primary-color);
     -webkit-text-stroke: 1px var(--secondary-color);
     margin-right: 60px;
+}
+
+.top-navbar-items{
+    width: 100vw;
+    overflow: hidden;
+}
+
+.top-navbar-item-list{
+    color: var(--primary-color);
+    position: relative;
+    display: inline-block;
+    font-family: Nova Flat, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 16px;
+    text-align: center;
+}
+
+.top-navbar-item-list:hover{
+    color: var(--primary-color);
+    background-color:var(--secondary-color);
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.top-navbar-item-list:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    display: block;
+    text-align: left;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    text-decoration: none;
 }
 
 /*Hero Image Gallery*/
