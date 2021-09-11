@@ -19,7 +19,7 @@ body {
         left: 50% !important;
     }
     #team-video-button {
-        top: 80% !important;
+        top: 75% !important;
         left: 10% !important;
     }
 }
@@ -127,7 +127,7 @@ body {
 #services{
     background-image: url("../rocket-repair/images/warehouse.jpg");
     width: 100vw;
-    height: 670px;
+    height: 700px;
     position: relative;
 }
 
