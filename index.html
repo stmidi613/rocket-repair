@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
  </head>
 
 <body>
@@ -17,10 +18,36 @@
     <nav class="top-navbar">
         <ul class="top-navbar-items">
         <span class="header-text">Rocko's Rocket Repair</span>
-        <li class="top-navbar-item-list">About us</li>
-        <li class="top-navbar-item-list">Services</li>
-        <li class="top-navbar-item-list">Locations</li>
-        <li class="top-navbar-item-list">Contact Us</li>
+        <li class="top-navbar-item-list">About us
+          <div class="dropdown-content">
+            <a href="#">Our History</a>
+            <a href="#">Our Mission</a>
+            <a href="#">Our Future Goals</a>
+          </div>
+        </li>
+        <a href="#services">
+          <li class="top-navbar-item-list">Services
+            <div class="dropdown-content">
+              <a href="#">Maintenance</a>
+              <a href="#">Tests</a>
+              <a href="#">Free Quotes</a>
+            </div>
+          </li></a>
+        <li class="top-navbar-item-list">Locations
+          <div class="dropdown-content">
+            <a href="#">North America</a>
+            <a href="#">Europe</a>
+            <a href="#">Japan</a>
+          </div>
+        </li>
+        <a href="#contact">
+          <li class="top-navbar-item-list">Contact Us
+            <div class="dropdown-content">
+              <a href="#">Headquarters</a>
+              <a href="#">Facilities</a>
+              <a href="#">E-mail</a>
+            </div>
+          </li></a>
         <li class="top-navbar-item-list">Site Map</li>
         </ul>
     </nav>
@@ -62,7 +89,7 @@
         <p class="service-list">Exterior Repairs</p>
         <p class="service-list">Part Replacement etc.</p>
         <button class="button">Services Page</button>
-        <button id="repair-video-button" class="button">Service Video</button>
+        <button id="repair-video-button" class="button"><i class="bi bi-play-fill"></i>Service Video</button>
       </div>
     </section>
 
@@ -72,7 +99,7 @@
         <p class="services-text">We provide all our customers with a free quote containing a list of all necessary and recommended repairs.</p>
         <button class="button">Learn More!</button>
       </div>
-      <button id="launch-video-button" class="button">Rocket Test Launch Videos</button>
+      <button id="launch-video-button" class="button"><i class="bi bi-play-fill"></i>Rocket Test Launch Videos</button>
     </section>
 
     <section id="extras">
@@ -80,7 +107,7 @@
         <span id="bbb-button"><img class="bbb" src="../rocket-repair/images/BBBlogo.png" alt="bbblogo"></span>
         <button id="gallery-button" class="button">Photo Gallery</button>
         <button id="reviews-button" class="button">Customer Reviews</button>
-        <button id="facility-tour-button" class="button">Facility Tour Video</button>
+        <button id="facility-tour-button" class="button"><i class="bi bi-play-fill"></i>Facility Tour Video</button>
       </div>
     </section>
 
@@ -93,11 +120,8 @@
           <input type="phone" id="phone" name="phone" value="Phone*" required><br>
           <textarea id="message" name="message" rows="4" cols="30">Message*</textarea><br>
           <button id="send-button" class="button">Send >></button>
-          <img id="fb" class="icons" src="../rocket-repair/images/facebook.png" alt="facebook">
-        <img id="twitter" class="icons" src="../rocket-repair/images/twitter.png" alt="twitter">
-        <img id="linkedin" class="icons" src="../rocket-repair/images/linkedin.png" alt="linkedin">
         </form>
-        <button id="team-video-button" class="button">Meet Our Team</button>
+        <button id="team-video-button" class="button"><i class="bi bi-play-fill"></i>Meet Our Team</button>
       </div>
     </section>
 
@@ -105,22 +129,35 @@
       <p class="footer-text">Copyright © 2007-2021  </p>  
        <!--Terms of Use | Privacy | Accessibility | Sitemap--> 
        <nav class="footer-navbar">
+        <ul class="footer-navbar-contact-items">
+          <a class="footer-link" href="">
+            <li class="footer-navbar-item-list">Facebook </li>
+          </a> 
+            <li>/</li> 
+          <a class="footer-link" href="">
+            <li class="footer-navbar-item-list"> Twitter </li>
+          </a>
+            <li>/</li>
+          <a class="footer-link" href="">
+            <li class="footer-navbar-item-list"> Indeed </li>
+          </a>
+        </ul>
         <ul class="footer-navbar-items">
-        <a class="footer-link" href="">
-          <li class="footer-navbar-item-list">Terms of Use </li>
-        </a> 
+          <a class="footer-link" href="">
+            <li class="footer-navbar-item-list">Terms of Use </li>
+          </a> 
           <li>/</li> 
-        <a class="footer-link" href="">
-          <li class="footer-navbar-item-list"> Privacy </li>
-        </a>
+          <a class="footer-link" href="">
+            <li class="footer-navbar-item-list"> Privacy </li>
+          </a>
           <li>/</li>
-        <a class="footer-link" href="">
-          <li class="footer-navbar-item-list"> Accessibility </li>
-        </a>
+          <a class="footer-link" href="">
+            <li class="footer-navbar-item-list"> Accessibility </li>
+          </a>
           <li>/</li>
-        <a class="footer-link" href="">
-          <li class="footer-navbar-item-list"> Sitemap </li>
-        </a>
+          <a class="footer-link" href="">
+            <li class="footer-navbar-item-list"> Sitemap </li>
+          </a>
         </ul>
     </nav>
     </footer>

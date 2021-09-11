@@ -4,8 +4,8 @@ body {
 }
 
 :root {
-    --primary-color: white;
-    --secondary-color: #231123;
+    --primary-color: deepskyblue;
+    --secondary-color: black;
     --supplement-color: #6E8387;
 }
 
@@ -19,8 +19,8 @@ body {
         left: 50% !important;
     }
     #team-video-button {
-        top: 78% !important;
-        left: 5% !important;
+        top: 75% !important;
+        left: 10% !important;
     }
 }
 
@@ -39,13 +39,33 @@ body {
     }
 }
 
+.header{
+    background-image: url("../rocket-repair/images/space-bg.jpg");
+    width: 100vw;
+    height: 50px;
+    background-size: cover;
+}
+
+.header-text{
+    font-family: Nova Flat, Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 28px;
+    color: white;
+    -webkit-text-stroke: 1px var(--secondary-color);
+    margin-right: 60px;
+}
+
 .top-navbar-items{
     width: 100vw;
+    height: 130px;
+    overflow: hidden;
 }
 
 .top-navbar-item-list{
-    color: var(--primary-color);
-    display: inline;
+    color: white;
+    position: relative;
+    display: inline-block;
     font-family: Nova Flat, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     padding: 16px;
@@ -59,21 +79,28 @@ body {
     cursor: pointer;
 }
 
-.header{
-    background-image: url("../rocket-repair/images/space-bg.jpg");
-    width: 100vw;
-    height: 50px;
-    background-size: cover;
+.top-navbar-item-list a{
+    text-decoration: none;
+    color: white;
 }
 
-.header-text{
-    font-family: Nova Flat, Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 28px;
+.top-navbar-item-list:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 999;
+}
+
+.dropdown-content a{
+    display: block;
+    text-align: left;
+    background-color: var(--secondary-color);
     color: var(--primary-color);
-    -webkit-text-stroke: 1px var(--secondary-color);
-    margin-right: 60px;
+    text-decoration: none;
 }
 
 /*Hero Image Gallery*/
@@ -100,7 +127,7 @@ body {
 #services{
     background-image: url("../rocket-repair/images/warehouse.jpg");
     width: 100vw;
-    height: 670px;
+    height: 700px;
     position: relative;
 }
 
@@ -122,19 +149,23 @@ body {
 }
 
 .services-title{
+<<<<<<< HEAD
     font-size: clamp(30px, 4vw, 46px);
+=======
+    font-size: clamp(32px, 4vw, 46px);
+>>>>>>> modern
     text-decoration: underline solid black;
 }
 
 .service-list{
-    font-size: clamp(24px, 4vw, 40px);
+    font-size: clamp(28px, 4vw, 40px);
 }
 
 .button{
     font-size: 24px;
     width: 220px;
     height: 60px;
-    background: rgba(0, 0, 255, 0);
+    background: var(--secondary-color);
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
 }
@@ -166,14 +197,12 @@ body {
 
 .h2-text{
     color: #fff;
-    -webkit-text-stroke: 1px var(--secondary-color);
     font-size: clamp(28px, 4vw, 46px);
     text-decoration: underline solid white;
 }
 
 .services-text{
     color: #fff;
-    -webkit-text-stroke: 1px var(--secondary-color);
     font-size: 24px;
     max-width: 300px;
 }
@@ -210,6 +239,10 @@ body {
     width: 220px;
 }
 
+.bbb:hover{
+    cursor: pointer;
+}
+
 #gallery-button, #reviews-button{
     margin-top: 20px;
 }
@@ -234,11 +267,14 @@ body {
     position: relative;
 }
 
+.form{
+    margin: 30px;
+}
+
 .div-contact{
     font-family: Nova Flat;
     font-size: 26px;
     color: #fff;
-    -webkit-text-stroke: 1px var(--primary-color);
     text-decoration: underline;
     margin: 30px 0px 24px 10px;
 }
@@ -283,9 +319,19 @@ body {
     width: 300px;
 }
 
+.footer{
+    margin: 30px;
+}
+
 .footer-text{
     display: block;
     text-align: center;
+}
+
+.footer-navbar-contact-items {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
 }
 
 .footer-navbar-items {
