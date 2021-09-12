@@ -163,11 +163,7 @@ body {
 }
 
 .services-title{
-<<<<<<< HEAD
     font-size: clamp(30px, 4vw, 46px);
-=======
-    font-size: clamp(32px, 4vw, 46px);
->>>>>>> modern
     text-decoration: underline solid black;
 }
 
