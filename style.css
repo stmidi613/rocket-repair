@@ -58,7 +58,7 @@ body {
 
 .top-navbar-items{
     width: 100vw;
-    height: 130px;
+    height: 190px;
     overflow: hidden;
 }
 
@@ -91,7 +91,8 @@ body {
 .dropdown-content{
     display: none;
     position: absolute;
-    min-width: 160px;
+    min-width: 200px;
+    margin: 10px -16px;
     z-index: 999;
 }
 
@@ -101,6 +102,19 @@ body {
     background-color: var(--secondary-color);
     color: var(--primary-color);
     text-decoration: none;
+    padding: 8px 15px;
+}
+
+.fa{
+    font-size: 30px !important;
+    color: white;
+    float: right;
+    padding: 12px 25px;
+}
+
+.fa:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 /*Hero Image Gallery*/
@@ -255,7 +269,7 @@ body {
 #contact{
     background-image: url("../rocket-repair/images/rocket-launch.jpg");
     width: 100vw;
-    height: 600px;
+    height: 700px;
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
