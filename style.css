@@ -24,6 +24,20 @@ body {
     }
 }
 
+@media (max-width: 1000px){
+    .header-text{
+        position: absolute;
+        left: 50%;
+        top: 1%;
+        transform: translate(-50%);
+        margin: 0px !important;
+        width: max-content;
+    }
+    .top-navbar-item-list{
+        display: none !important;
+    }
+}
+
 @media (max-width: 850px){
     #services{
         background-image: url("../rocket-repair/images/warehouse-cropped.jpg") !important;
@@ -53,7 +67,7 @@ body {
     font-size: 28px;
     color: white;
     -webkit-text-stroke: 1px var(--secondary-color);
-    margin-right: 60px;
+    margin-right: 50px;
 }
 
 .top-navbar-items{
@@ -296,7 +310,7 @@ body {
 }
 
 #send-button{
-    margin-left: 10px;
+    margin: 15px;
 }
 
 #fb{
