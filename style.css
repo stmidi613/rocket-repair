@@ -119,14 +119,19 @@ body {
     padding: 8px 15px;
 }
 
-.fa{
-    font-size: 30px !important;
+.top-navbar label{
+    font-size: 40px !important;
     color: white;
     float: right;
-    padding: 12px 25px;
+    padding: 0px 16px;
+    margin-top: -10px;
 }
 
-.fa:hover{
+.top-navbar input{
+    display: none;
+}
+
+#hamburger:hover, label:hover{
     background-color: var(--secondary-color);
     color: var(--primary-color);
 }
