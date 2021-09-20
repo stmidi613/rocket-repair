@@ -72,7 +72,7 @@ body {
 
 .top-navbar-items{
     width: 100vw;
-    height: 190px;
+    height: min-content;
     overflow: hidden;
 }
 
@@ -117,6 +117,7 @@ body {
     color: var(--primary-color);
     text-decoration: none;
     padding: 8px 15px;
+    z-index: 998;
 }
 
 .top-navbar label{
@@ -131,9 +132,24 @@ body {
     display: none;
 }
 
-#hamburger:hover, label:hover{
+.top-navbar label:hover{
     background-color: var(--secondary-color);
     color: var(--primary-color);
+}
+
+ul .hamburger-item{
+    display: none;
+}
+#hamburger{
+    opacity: 0;
+}
+#hamburger:checked + ul .hamburger-item{
+    display: block;
+    text-align: end;
+    z-index: 997;
+    position: relative;
+    height: fit-content;
+    margin: 23px;
 }
 
 /*Hero Image Gallery*/
