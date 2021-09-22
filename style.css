@@ -72,7 +72,7 @@ body {
 
 .top-navbar-items{
     width: 100vw;
-    height: min-content;
+    height: 600px;
     overflow: hidden;
 }
 
@@ -91,7 +91,6 @@ body {
     background-color:var(--secondary-color);
     transition: 300ms;
     cursor: pointer;
-    width: min-content;
 }
 
 .top-navbar-item-list a{
@@ -101,7 +100,6 @@ body {
 
 .top-navbar-item-list:hover .dropdown-content{
     display: block;
-    position: relative;
 }
 
 .dropdown-content{
@@ -113,10 +111,12 @@ body {
 
 .dropdown-content a{
     display: block;
+    position: relative;
     text-align: left;
     background-color: var(--secondary-color);
     color: var(--primary-color);
     text-decoration: none;
+    width: 300px;
     padding: 8px 15px;
     z-index: 998;
 }
