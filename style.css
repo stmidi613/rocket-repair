@@ -91,6 +91,7 @@ body {
     background-color:var(--secondary-color);
     transition: 300ms;
     cursor: pointer;
+    width: min-content;
 }
 
 .top-navbar-item-list a{
@@ -100,12 +101,12 @@ body {
 
 .top-navbar-item-list:hover .dropdown-content{
     display: block;
+    position: relative;
 }
 
 .dropdown-content{
     display: none;
-    position: absolute;
-    min-width: 200px;
+    position: relative;
     margin: 12px -10px;
     z-index: 999;
 }
