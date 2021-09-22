@@ -116,7 +116,11 @@ body {
     background-color: var(--secondary-color);
     color: var(--primary-color);
     text-decoration: none;
+<<<<<<< HEAD
     width: 300px;
+=======
+    height: min-content;
+>>>>>>> modern
     padding: 8px 15px;
     z-index: 998;
 }
