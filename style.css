@@ -73,9 +73,16 @@ body {
     margin-right: 50px;
 }
 
-.top-navbar-items{
+/*.top-navbar{
+    height: 50px;
+    width: 100vw;
+    background: black;
+    z-index: 1;
     position: fixed;
-    z-index: 1000;
+}*/
+
+.top-navbar-items{
+    z-index: 998;
     width: 100vw;
     height: 600px;
     overflow: hidden;
@@ -150,6 +157,10 @@ ul .hamburger-item a{
     text-decoration: none;
     font-size: 18px;
     padding: 12px 12px;
+}
+
+ul .hamburger-item a:hover{
+    color: blue;
 }
 
 ul .hamburger-item{
